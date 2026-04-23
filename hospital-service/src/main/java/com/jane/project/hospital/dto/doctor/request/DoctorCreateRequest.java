@@ -21,7 +21,7 @@ public class DoctorCreateRequest {
 
     @NotBlank(message = "Контакт(телефон) обов'язковий")
     @Pattern(regexp = "\\d{10}", message = "Телефон має складатися з 10 цифр")
-    @Schema(description = "Телефон пацієнта (10 цифр)", example = "0671234567")
+    @Schema(description = "Телефон лікаря (10 цифр)", example = "0671234567")
     private String contact;
 }
 
