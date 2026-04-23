@@ -5,7 +5,6 @@ import com.jane.project.hospital.dto.doctor.response.DoctorResponse;
 import com.jane.project.hospital.repository.entity.DoctorEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
-import org.mapstruct.factory.Mappers;
 
 @Mapper(componentModel = "spring")
 public interface DoctorMapper {
