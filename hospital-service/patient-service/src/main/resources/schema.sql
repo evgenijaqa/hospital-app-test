@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS patients;
+
+CREATE TABLE patients (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    birth_date DATE NOT NULL,
+    contact VARCHAR(10) NOT NULL UNIQUE
+);
