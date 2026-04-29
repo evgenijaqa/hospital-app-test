@@ -1,7 +1,0 @@
-package com.jane.project.hospital.exceptions;
-
-public class DuplicateContactException extends RuntimeException {
-    public DuplicateContactException(String message) {
-        super(message);
-    }
-}
